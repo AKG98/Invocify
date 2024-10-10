@@ -2,7 +2,7 @@ import { createApi, fetchBaseQuery } from "@reduxjs/toolkit/query/react";
 
 export const clientApi = createApi({
     reducerPath: "clientApi",
-    baseQuery: fetchBaseQuery({ baseUrl: "http://localhost:3000/api/clients" }),
+    baseQuery: fetchBaseQuery({ baseUrl: "https://invocify-modern-invoicing.onrender.com/api/clients" }),
     tagTypes: ["Clients"], // Changed "Stores" to "Clients" for consistency
     endpoints: (builder) => ({
         getClients: builder.query({
