@@ -6,7 +6,7 @@ import userRoutes from "./routes/userRoutes.js";
 import storeRoutes from "./routes/storeRoutes.js";
 import clientRoutes from "./routes/clientRoutes.js";
 import invoiceRoutes from "./routes/invoiceRoutes.js";
-// import cors from "cors";
+import cors from "cors";
 import path from "path";
 import { fileURLToPath } from "url";
 
