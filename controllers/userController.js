@@ -179,7 +179,7 @@ export async function forgotPassword(req, res) {
         
                   <!-- Call to Action Button -->
                   <div style="text-align: center; margin: 20px 0;">
-                    <a href="http://localhost:5173/auth/reset-password/${token}" style="background-color: #4CAF50; color: white; padding: 10px 20px; text-decoration: none; border-radius: 5px; display: inline-block;">Reset Your Password</a>
+                    <a href="https://invocify-modern-invoicing.onrender.com/auth/reset-password/${token}" style="background-color: #4CAF50; color: white; padding: 10px 20px; text-decoration: none; border-radius: 5px; display: inline-block;">Reset Your Password</a>
                   </div>
         
                   <!-- Security Reminder -->
@@ -264,7 +264,7 @@ export async function resetPassword(req, res,next) {
               <p>Your password has been successfully reset. You can now log in using your new password.</p>
               
               <div style="text-align: center; margin: 20px 0;">
-                <a href="http://localhost:5173/auth/" style="background-color: #4CAF50; color: white; padding: 10px 20px; text-decoration: none; border-radius: 5px; display: inline-block;">Log In</a>
+                <a href="https://invocify-modern-invoicing.onrender.com/auth/" style="background-color: #4CAF50; color: white; padding: 10px 20px; text-decoration: none; border-radius: 5px; display: inline-block;">Log In</a>
               </div>
       
               <!-- Reminder -->
