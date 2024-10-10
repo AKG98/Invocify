@@ -7,7 +7,7 @@ export default defineConfig({
   server: {
     proxy: {
       '/api': {
-        target: 'http://localhost:3000', //'https://invocify-server.onrender.com',
+        target: 'https://invocify-modern-invoicing.onrender.com', //'https://invocify-server.onrender.com',
         changeOrigin: true,
       }
     }
