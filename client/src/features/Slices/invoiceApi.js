@@ -2,7 +2,7 @@ import { createApi, fetchBaseQuery } from "@reduxjs/toolkit/query/react"; // Use
 
 export const invoiceApi = createApi({
   reducerPath: "invoiceApi",
-  baseQuery: fetchBaseQuery({ baseUrl: "http://localhost:3000/api" }), // API base without "/invoices"
+  baseQuery: fetchBaseQuery({ baseUrl: "https://invocify-modern-invoicing.onrender.com/api" }), // API base without "/invoices"
   tagTypes: ["Invoice"],
 
   endpoints: (builder) => ({
